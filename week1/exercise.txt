@@ -1,0 +1,135 @@
+1) What is the name of the programming language that we will be using on this module? What
+version of the language are we using?
+
+Ans: python 3.10.9
+
+2) A computer program takes some input, performs some processing then…. what?
+
+Ans: Gives output
+
+3) What generation of programming language is machine code?
+
+Ans: First generation
+
+4) Which of the following is known as a second generation programming language?
+● C++
+● Java
+● Assembly
+● R
+● Python
+
+Ans: Assembly
+
+5) State one problem associated with writing code in Assembly Language.
+
+Ans: Writing code is slower.
+
+6) What generation of programming language is Python?
+
+Ans: Third generation
+
+7) What is the purpose of a compiler?
+
+Ans: To translate source code into machine code.
+
+
+
+8) The Python interpreter uses an interaction model called REPL. What does this stand for?
+
+Ans: Read Evaluation Print Loop
+
+9) Is it true that Python development always has to take place using interactive-mode within the Python interpreter?
+
+Ans: Not true.
+
+10) What does the term IDE stand for?
+
+Ans: Integrated Development Environment
+
+
+11) What is the main reason why programmers use code libraries?
+
+Ans: Libraries 
+
+12)The Python language is often used in the field of data-science. What other language
+specifically supports data-science?
+
+Ans: R
+
+13) An expression within a programming language consists of operands and operators.
+Given an expression such as: 20 + 10, which part of this is the operator?
+    
+Ans: +
+
+14) And, which part of this is the operand?
+
+Ans: 20 and 10
+
+15) Within Python, what calculation is performed by the ‘*’ operator?
+
+Ans: Multiplication
+
+16) Within Python, what calculation is performed by the ‘/’ operator?
+
+Ans: Division
+
+17) Within Python, what calculation is performed by the ‘**’ operator?
+
+Ans: exponentiation
+
+18) Using the information about expression evaluation provided in the related tutorial, evaluate
+each of the following expressions in your head and type the result in the answer boxes
+below. Remember that an operator precedence is applied, but can be overridden by the use
+of parentheses.
+
+a) 100 + 200 - 50
+Ans: 250
+    
+b) 10 + 20 * 10
+Ans: 210
+    
+c) 20 % 3
+Ans: 2
+    
+d) 20 / (2 * 5)
+Ans: 2
+    
+e) 20 / 2 * 5  
+Ans: 50
+    
+f) 10 * 2 + 1 * 3
+Ans: 23
+    
+g) 5 + 10 ** 2
+Ans: 105
+    
+h)  (10 + 2 / 2) + ((10 * 2) ** 2)
+Ans: 211
+        
+
+19) Use the Python interpreter to input and then execute a simple Python expression that adds
+the three numbers 100.6, 200.72 and 213.3, then write the result in the answer box below.
+
+Ans: 514.62
+
+20) Use the Python interpreter to input and then execute a simple Python expression that
+multiplies the three numbers 20.25, 100 and 23.9, then write the result in the answer box
+
+Ans: 144.15
+
+21) Use the Python interpreter to input and then execute a simple Python expression that divides
+the number 10 by 0, then write the result in the answer box below.
+
+Ans: ZeroDivisionError
+
+22) What type of error is typically easier to identify? A syntax error? Or a logical error?
+
+Ans: logical error
+
+23) What type of message is used by the Python interpreter to report run-time errors?
+
+Ans: Traceback message
+
+24) What command can be used to exit the Python interpreter?
+
+Ans: exit()
