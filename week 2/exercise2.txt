@@ -1,0 +1,254 @@
+1) Which is the purpose of a variable within Python?
+ 
+Ans: The main purpose of varianle is to store a value.
+
+2) Write a simple Python statement that creates and assigns a value of 3.142 to a variable 
+called ‘pi’
+
+Ans: pi = 3.142
+
+3) Which of the following is NOT a valid name for a variable within Python?
+total
+result
+question?
+name_1
+
+Ans: question?
+
+4) Following the execution of the code below, what will be stored in the variable 'age'?
+age = 10 + 20
+age = age + 5
+
+Ans: 35
+
+5) In the answer box below write the exact output that would be displayed if the following 
+statement was executed (assuming age has been created as in the previous question):
+print("The age value is",age)
+
+Ans: The age value is 35
+    
+
+6) Which of the following is an example of an Augmented Assignment in Python?
+total = 20
+total = total + 5
+total *= 100
+total = max
+
+Ans: total *= 100
+
+7) Which of the following is an example of an integer type variable?
+result = "xyz"
+result = 20
+result = 20.5
+result = False
+
+Ans: result = 20
+
+8) What are the only two legal values of a boolean type variable?
+
+Ans: True and False
+
+9) Following the execution of the code below, what will be the data-type of the variable 
+'average'?
+average = total / count
+
+Ans: float
+
+10) Following the execution of the code below, what will be the data-type of the variable 
+'message'?
+message = "hello there!"
+
+Ans: string
+
+11) What determines the current data-type of a variable?
+
+Ans: Data-type of the last value assigned.
+
+12) What is the purpose of the built-in type() function?
+ 
+Ans: To know the current data type of variable.
+
+13) What would be the output following execution of the following code?
+type(10.2)
+
+Ans: Float
+
+14) Does the Python language support Dynamic Typing, or Static Typing?
+
+Ans: Dynamic-typing
+
+15) Which of the following is an example of a function call?
+answer = 10
+print(answer)
+total *= 10
+10 + 20
+
+Ans: print(answer)
+
+16) What is the name given to the values that are passed to a function within the parentheses?
+
+Ans: parameter
+
+17) What is the purpose of the built-in input() function?
+
+Ans: to take input from the user
+
+18) What is the data-type of the value returned by the input() function?
+
+Ans: String
+
+19) Use the Python interpreter to input a small Python program that prints your name and 
+address on the screen. Once this works type the program in the answer box below.
+
+Ans: 
+name = input("Enter your name: ")
+address = input("Enter your address: ")
+print(name, address)
+
+20) Within the answer box below write a small Python program, that when run, would print the 
+following message including the double quotes -
+Hello, is your name "Bwian"?
+
+Ans: print("Hello, is your name \"Bwian\"?")
+
+21) Now write a second small Python program, that when run, would print the following message 
+including the single quotes -
+Or is your name 'Woger'?
+
+Ans: print("or is your name 'Woger'?")
+
+22) Within the answer box below write a small Python program, that when run, uses escape 
+sequences to print the following text exactly.
+This is a string containing a backslash (\),
+ a single quote ('), a double quote (")
+ and is split across multiple lines
+
+Ans: print("This is a string containing a backslash (\),\n""\ta single quote ('), a double quote (\")\n""\tand is split across multiple lines")
+
+23) Within the answer box below write a small Python program, that when run, uses triple quotes
+to print the following text exactly.
+This is a string containing a backslash (\),
+ a single quote ('), a double quote (")
+ and is split across multiple lines
+     
+Ans: print('''This is a string containing a backslash (\),\n''' '''\ta single quote ('), a double quote (")\n''' '''\tand is split across multiple lines''')                 
+
+
+23) Within the answer box below write a small Python program, that when run, uses triple quotes
+to print the following text exactly.
+This is a string containing a backslash (\),
+ a single quote ('), a double quote (")
+ and is split across multiple lines
+     
+Ans: print('''This is a string containing a backslash (\),\n''' '''\ta single quote ('), a double quote (")\n''' '''\tand is split across multiple lines''')                 
+
+
+25) Within the answer box below write a small Python program that asks the user to enter two 
+values. Store these in variables called 'a' and 'b' respectively.
+
+Ans:
+a = float(input("Enter a value: "))
+b = float(input("Enter another value: "))    
+
+
+26) Once the values have been input use three calls to the print() function to show output 
+such as the following (in this example the user entered 10.2 and 18.3) -
+The value 'a' was 10.2 and the value 'b' was 18.3
+The sum of 'a' and 'b' is 28.5
+The product of 'a' and 'b' is 186.66
+
+Ans: 
+print(f"The value 'a' was {a} and the value 'b' was {b}")
+print(f"The sum of 'a' and 'b' is {a+b}")
+print(f"The product of 'a' and 'b' is {a*b}")
+
+27) Python includes a built-in function called max(). When this is called with multiple argument 
+values it returns the largest of the given arguments. e.g.
+max(20, 50, 30) # this would return 50
+Within the answer box below write a small program that asks the user to input three values. 
+Store these in variables (the names are up to you) then use the max() function to display the 
+largest of the input values.
+
+Ans:
+first = float(input("Enter 1st number: "))
+second = float(input("Enter 2nd number: "))
+third = float(input("Enter third number: "))
+print(max(first, second, third))    
+
+28) Using the Python interpreter execute your code, then examine the output generated when 
+the input the values are 'hello', 'welcome', and 'bye'
+Does the program still show the maximum value? If not, what does it show?
+
+Ans: It shows welcome.
+
+29) Given the following definition:
+name = "Black Knight"
+What would each of the following Python statements display?
+
+a)print( name[0] ) = 'B'
+
+b)print( name[4] ) = 'k'
+
+c)print( name[-1] ) = 't'
+
+d)print( name[-2] ) = 'h'
+
+e)print( name[2:5] ) = 'ack' 
+
+f)print( name[6:] ) = 'Knight'
+
+g)print( name[:5] ) = 'Black'
+
+h)print( name[:] ) = 'Black knight'
+
+
+30) Which of the following creates a variable containing a List?
+names = "Terry"
+names = 10
+names = [ "Mark", "Jon", "Amanda", "Edward", "Sally" ]
+names = "Mark", "Jon", "Amanda"
+
+Ans: names = [ "Mark", "Jon", "Amanda", "Edward", "Sally" ]
+
+31) Is the following a valid List, even though it contains values based on different data-types?
+values = [10.2, "Jon", False, "Edward", True ]
+
+Ans: yes, valid. 
+
+32) If a value is mutable, can it be modified after it has been created?
+
+Ans: Yes
+
+33) What term is used to describe a value that cannot be changed once it has been created?
+
+Ans: Immutable
+
+34) Is a List mutable or immutable?
+
+Ans: Mutable
+
+35) Is a String mutable or immutable?
+
+Ans: Immutable
+
+36) Given the following definition -
+names = ["Terry", "John", "Michael", "Eric", "Terry", "Graham"]
+What would each of the following Python statements display?
+
+a)print( names[2] ) : 'Michael'
+    
+b)print( names[-2] ): 'Terry'
+    
+c)print( names[0:3] ): ['Terry', 'John', 'Michael']
+    
+d)names = names + "Brian" : Can only concatenate list to list. Not str with list. Hence, error.
+  print( names ) 
+
+e)names[0:1] = ["Mark", "Jon"] :  ['Mark', 'Jon', 'John', 'Michael', 'Eric', 'Terry', 'Graham']
+  print( names )
+
+
+37) What built-in function within Python can be used to find out how many elements are 
+contained within a string or list?
+
+Ans: len()
